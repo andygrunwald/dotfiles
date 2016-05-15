@@ -1,0 +1,57 @@
+# Local/private config goes in the include
+[include]
+        path = ~/.gitconfig.local
+
+[hub]
+        protocol = https
+
+[alias]
+        st = status
+        ci = commit
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    	pom = push origin master
+
+        # verbose outputs
+        branches = branch -av
+        tags = tag -l
+        remotes = remote -v
+
+        wtf     = !$ZSH/bin/git-wtf
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = auto
+
+[core]
+        # Use custom `.gitignore`
+        excludesfile = ~/.gitignore
+        editor = vim
+
+        # Make `git rebase` safer on OS X
+        # More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
+        trustctime = false
+
+[merge]
+        # Include summaries of merged commits in newly created merge commit messages
+        log = true
+
+[apply]
+        whitespace = nowarn
+
+[mergetool]
+        keepBackup = false
+
+[help]
+        autocorrect = 1
+
+[branch]
+        autosetuprebase = remote
+
+[push]
+        # See `git help config` (search for push.default)
+        # for more information on different options of the below setting.
+        #
+        # Setting to git 2.0 default to suppress warning message
+        default = simple

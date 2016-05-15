@@ -1,0 +1,6 @@
+[user]
+        name = Andy Grunwald
+        email = andygrunwald@gmail.com
+
+[credential]
+        helper = osxkeychain
