@@ -54,7 +54,6 @@ Here is a list of things i need to do if i set up a new machine (aka my .files T
     * Adobe Acrobat Reader
     * Microsoft Office
     * Keynote
-    * PHPStorm
     * PyCharm
     * IntelliJ IDEA
     * Remember The Milk
