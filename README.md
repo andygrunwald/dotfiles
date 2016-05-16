@@ -38,6 +38,27 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## Not automated (yet)
+
+Here is a list of things i need to do if i set up a new machine (aka my .files TODO list):
+
+* OSX: Set apps in Dock
+* Chrome: Install Plugins
+* Atom: Settings + Plugins
+* Zsh
+* Subversion: Settings
+* Tunnelblick: Configuration
+* Apple Mail: Configuration
+* Oh-My-Zsh
+* Install software:
+    * Adobe Acrobat Reader
+    * Microsoft Office
+    * Keynote
+    * PHPStorm
+    * PyCharm
+    * IntelliJ IDEA
+    * Remember The Milk
+
 ## Inspired by ...
 
 The content of this repository was heavily inspired by
