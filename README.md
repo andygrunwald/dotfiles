@@ -38,16 +38,29 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## Before reinstallation
+
+* Backup SSH-Keys
+* Backup Filezilla-Servers
+
 ## Not automated (yet)
 
 Here is a list of things i need to do if i set up a new machine (aka my .files TODO list):
 
-* OSX: Set apps in Dock
 * Chrome: Install Plugins
+    * 1Password
+    * AdblockPlus
+    * EditThisCookie
+    * Google Mail Checker
+    * Momentum
+    * Postman
+    * Pocket
 * Atom: Settings + Plugins
+    * Autocomplete-Go
+    * go-plus
+    * pretty-json
 * Subversion: Settings
 * Tunnelblick: Configuration
-* Apple Mail: Configuration
 * Install software:
     * Adobe Acrobat Reader
     * Microsoft Office
