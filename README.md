@@ -42,7 +42,7 @@ this script in `bin/`.
 
 * Backup:
 	* SSH-Keys
-	* Settings of Filezilla, SequelPro
+	* Settings of FileZilla and SequelPro
 
 ## Not automated (yet)
 
@@ -56,8 +56,15 @@ Here is a list of things i need to do if i set up a new machine (aka my .files T
 * Install software:
     * Adobe Acrobat Reader
     * Microsoft Office
-    * Keynote
+    * Pages, Numbers and Keynote
     * Remember The Milk
+
+## Known issues
+
+* Homebrew installation is not headless. See [holman/dotfiles #238](https://github.com/holman/dotfiles/issues/238)
+* zsh is not set to standard shell. See [holman/dotfiles #239](https://github.com/holman/dotfiles/issues/239)
+* Tunnelblick installation fail with `brew cask`. See [caskroom/homebrew-cask #12858](https://github.com/caskroom/homebrew-cask/issues/12858)
+* Remember The Milk not available via `brew cask`. Reason: App only downloadable while logged in. Support request to RememberTheMilk was sent.
 
 ## Inspired by ...
 
