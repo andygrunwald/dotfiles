@@ -249,7 +249,7 @@ defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 ###############################################################################
-# TextEdit, and Disk Utility                   #
+# TextEdit, and Disk Utility                                                  #
 ###############################################################################
 
 # Use plain text mode for new TextEdit documents
@@ -290,11 +290,7 @@ defaults write com.google.Chrome DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 
 ###############################################################################
-# Kill affected applications                                                  #
+# Done                                                                        #
 ###############################################################################
 
-#for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Google Chrome" "Mail" \
-#	"Messages" "Photos" "Safari" "SystemUIServer" "Terminal" "iCal"; do
-#	killall "${app}" &> /dev/null
-#done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
