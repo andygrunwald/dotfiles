@@ -40,21 +40,14 @@ this script in `bin/`.
 
 ## Before reinstallation
 
-* Backup SSH-Keys
-* Backup Filezilla-Servers
+* Backup:
+	* SSH-Keys
+	* Settings of Filezilla, SequelPro
 
 ## Not automated (yet)
 
 Here is a list of things i need to do if i set up a new machine (aka my .files TODO list):
 
-* Chrome: Install Plugins
-    * 1Password
-    * AdblockPlus
-    * EditThisCookie
-    * Google Mail Checker
-    * Momentum
-    * Postman
-    * Pocket
 * Atom: Settings + Plugins
     * Autocomplete-Go
     * go-plus
