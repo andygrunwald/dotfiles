@@ -32,6 +32,7 @@ brew 'zsh-completions'
 
 
 cask '1password'
+cask 'adobe-reader'
 cask 'alfred'
 cask 'atom'
 cask 'bettertouchtool'
