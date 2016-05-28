@@ -4,7 +4,7 @@ My .files.
 
 This is a fork of [holman/dotfiles](https://github.com/holman/dotfiles) with several adjustments
 and ideas from other dotfiles.
-The structure is they same, because @holman did a good job here. Thank you, man!
+The structure is they same, because [Zach](https://github.com/holman) did a good job here. Thank you, man!
 
 ## Components
 
