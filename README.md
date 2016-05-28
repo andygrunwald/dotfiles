@@ -54,7 +54,6 @@ Here is a list of things i need to do if i set up a new machine (aka my .files T
     * pretty-json
 * Tunnelblick: Configuration
 * Install software:
-    * Adobe Acrobat Reader
     * Microsoft Office
     * Pages, Numbers and Keynote
     * Remember The Milk
