@@ -27,6 +27,7 @@ brew 'tree'
 brew 'openssl'
 brew 'unrar'
 brew 'wget'
+brew 'xz'
 brew 'zsh'
 brew 'zsh-completions'
 
