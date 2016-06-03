@@ -21,6 +21,7 @@ brew 'homebrew/php/php70-mcrypt'
 brew 'homebrew/php/php70-opcache'
 brew 'homebrew/php/php70-redis', args: ['HEAD']
 brew 'homebrew/php/php70-xdebug'
+brew 'python'
 brew 'readline'
 brew 'subversion'
 brew 'tree'
