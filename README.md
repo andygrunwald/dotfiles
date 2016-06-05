@@ -57,7 +57,6 @@ Here is a list of things i need to do if i set up a new machine (aka my .files T
     * Microsoft Office
     * Pages, Numbers and Keynote
     * Remember The Milk
-    * SmartConverter (see [caskroom/homebrew-cask#21660](https://github.com/caskroom/homebrew-cask/issues/21660))
 
 ## Known issues
 
