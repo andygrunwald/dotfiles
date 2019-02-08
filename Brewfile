@@ -14,6 +14,7 @@ brew 'go'
 brew "goreleaser/tap/goreleaser"
 brew 'hugo'
 brew 'jq'
+brew 'ngrok'
 brew 'node'
 brew 'php'
 brew 'python'
