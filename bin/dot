@@ -43,9 +43,6 @@ export ZSH=$HOME/.dotfiles
 # Set macOS defaults
 $ZSH/macos/set-defaults.sh
 
-# Set macOS dock
-$ZSH/macos/dock.sh
-
 # Install homebrew
 $ZSH/homebrew/install.sh 2>&1
 
