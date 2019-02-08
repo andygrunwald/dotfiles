@@ -35,4 +35,3 @@ done
 # Official Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/local/sbin:$PATH"
