@@ -1,10 +1,8 @@
 # Local/private config goes in the include
 [include]
         path = ~/.gitconfig.local
-
 [hub]
         protocol = https
-
 [alias]
         st = status
         ci = commit
@@ -17,38 +15,27 @@
         remotes = remote -v
 
         wtf     = !$ZSH/bin/git-wtf
-
 [color]
         diff = auto
         status = auto
         branch = auto
-        ui = auto
-
+        ui = true
 [core]
-        # Use custom `.gitignore`
         excludesfile = ~/.gitignore
         editor = vim
-
-        # Make `git rebase` safer on OS X
-        # More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
-        trustctime = false
-
 [merge]
         # Include summaries of merged commits in newly created merge commit messages
         log = true
-
 [apply]
         whitespace = nowarn
-
 [mergetool]
         keepBackup = false
-
+[difftool]
+        prompt = false
 [help]
         autocorrect = 1
-
 [branch]
         autosetuprebase = remote
-
 [push]
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.
