@@ -35,5 +35,4 @@ done
 # Official Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
