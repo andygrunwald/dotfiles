@@ -21,7 +21,6 @@ brew 'shellcheck'
 brew "telnet"
 brew "terraform"
 brew 'tree'
-brew 'unrar'
 brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
