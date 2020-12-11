@@ -150,9 +150,6 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 # Enable AirDrop over Ethernet and on unsupported Macs running Lion
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
-# Show the ~/Library folder
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
-
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
