@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 brew 'colordiff'
 brew 'composer'
 brew 'coreutils'
+brew 'cocoapods'
 brew "csvkit"
 brew "curl"
 brew 'docker'
