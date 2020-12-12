@@ -5,6 +5,11 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
+# It is a bit special than the other install.sh files, because
+# it is the foundation of mac package management.
+# Thats why it is not named install.sh.
+# We trigger this script before all other.
+
 # Check for Homebrew
 if test ! $(which brew)
 then
