@@ -27,6 +27,7 @@ brew 'zsh-completions'
 
 cask '1password'
 cask 'adobe-acrobat-reader'
+cask 'android-studio'
 cask 'alfred'
 cask 'caffeine'
 cask 'docker'
