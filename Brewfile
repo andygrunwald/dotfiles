@@ -49,3 +49,6 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
+
+# 'mas install'
+mas "Magnet", id: 441258766
