@@ -1,0 +1,2 @@
+# Installation via homebrew
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
