@@ -73,3 +73,7 @@
 
 [credential]
 	helper = osxkeychain
+[init]
+	defaultBranch = main
+[http]
+	cookiefile = /Users/agrunwald/.gitcookies
