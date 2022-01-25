@@ -1,56 +1,130 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-
-brew 'colordiff'
-brew 'composer'
-brew 'coreutils'
-brew 'cocoapods'
-brew "csvkit"
+tap "carlocab/personal"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "instantclienttap/instantclient"
+brew "openexr"
+brew "jpeg-xl"
+brew "libvmaf"
+brew "aom"
+brew "ca-certificates"
+brew "bdw-gc"
+brew "c-ares"
+brew "freetype"
+brew "gdbm"
+brew "readline"
+brew "python@3.9"
+brew "glib"
+brew "xorgproto"
+brew "libx11"
+brew "tcl-tk"
+brew "cmake"
+brew "cocoapods"
+brew "colordiff"
+brew "libunistring"
+brew "libnghttp2"
+brew "libssh2"
+brew "openldap"
+brew "zstd"
 brew "curl"
-brew 'docker'
-brew 'esptool'
-brew 'ffmpeg'
+brew "freetds"
+brew "gd"
+brew "gmp"
+brew "libpq", link: true
+brew "libzip"
+brew "pcre2"
+brew "php"
+brew "composer"
+brew "coreutils"
+brew "csvkit"
+brew "dav1d"
+brew "direnv"
+brew "docker", link: false
+brew "esptool"
+brew "fasttext"
+brew "fribidi"
+brew "guile"
+brew "libtasn1"
+brew "p11-kit"
+brew "unbound"
+brew "gnutls"
+brew "gobject-introspection"
+brew "harfbuzz"
+brew "leptonica"
+brew "libass"
+brew "librist"
+brew "libvpx"
+brew "rav1e"
+brew "rubberband"
+brew "sdl2"
+brew "srt"
+brew "tesseract"
+brew "zimg"
+brew "ffmpeg"
+brew "libuv"
+brew "node"
 brew "firebase-cli"
-brew 'git'
-brew 'go'
-brew 'hugo'
-brew 'jq'
-brew 'node'
-brew 'php'
-brew 'shellcheck'
+brew "gifsicle"
+brew "git"
+brew "git-quick-stats"
+brew "go"
+brew "grep"
+brew "hugo"
+brew "jq"
+brew "kubernetes-cli", link: false
+brew "kubectx"
+brew "mas"
+brew "ncurses"
+brew "nghttp2"
+brew "odpi"
+brew "openssl@3"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "python@3.8"
+brew "shellcheck"
 brew "telnet"
-brew "terraform"
-brew 'tree'
-brew 'wget'
-brew 'zsh'
-brew 'zsh-completions'
-
-cask '1password'
-cask 'adobe-acrobat-reader'
-cask 'android-studio'
-cask 'alfred'
-cask 'caffeine'
-cask 'docker'
-cask 'dropbox'
-cask 'evernote'
-cask 'firefox'
-cask 'google-chrome'
-cask 'google-cloud-sdk'
-cask 'grammarly'
-cask 'iterm2'
-cask 'keka'
-cask 'mysqlworkbench'
-cask 'remember-the-milk'
-cask 'sequel-ace'
-cask 'spotify'
-cask 'slack'
-cask 'telegram'
-cask 'tunnelblick'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'whatsapp'
-
-# 'mas install'
+brew "terraform", link: false
+brew "tfenv"
+brew "tree"
+brew "wget"
+brew "youtube-dl"
+brew "zsh"
+brew "zsh-completions"
+brew "carlocab/personal/unrar"
+brew "instantclienttap/instantclient/instantclient-basic"
+brew "instantclienttap/instantclient/instantclient-sqlplus"
+cask "1password"
+cask "adobe-acrobat-reader", args: { appdir: "/Applications" }
+cask "alfred", args: { appdir: "/Applications" }
+cask "android-studio"
+cask "audacity"
+cask "bluejeans"
+cask "caffeine", args: { appdir: "/Applications" }
+cask "docker", args: { appdir: "/Applications" }
+cask "dropbox", args: { appdir: "/Applications" }
+cask "evernote"
+cask "firefox"
+cask "fsnotes"
+cask "gimp"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "grammarly", args: { appdir: "/Applications" }
+cask "iterm2"
+cask "keka", args: { appdir: "/Applications" }
+cask "ngrok"
+cask "omnigraffle"
+cask "remember-the-milk"
+cask "robo-3t"
+cask "sequel-ace"
+cask "sequel-pro"
+cask "signal"
+cask "spotify"
+cask "steam"
+cask "telegram", args: { appdir: "/Applications" }
+cask "virtualbox"
+cask "visual-studio-code", args: { appdir: "/Applications" }
+cask "vlc"
+cask "whatsapp"
 mas "Magnet", id: 441258766
+mas "Xcode", id: 497799835
